@@ -1,5 +1,5 @@
 <h2 align="center">
-    ──「 ⛦🦋 Frozen Music 🦋⛦ 」──
+    ──「 •°•꯭─꯭─⃛͢𝖸ᴜᴍɪᴋᴏ᭄𓆪 _✨🥀 」──
 </h2>
 
 <p align="center">
