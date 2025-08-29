@@ -123,9 +123,9 @@ bot_start_time = time.time()
 COOLDOWN = 10
 chat_last_command = {}
 chat_pending_commands = {}
-QUEUE_LIMIT = 20
-MAX_DURATION_SECONDS = 900  
-LOCAL_VC_LIMIT = 10
+QUEUE_LIMIT = 100
+MAX_DURATION_SECONDS = 9999  
+LOCAL_VC_LIMIT = 100
 playback_mode = {}
 
 
@@ -378,7 +378,7 @@ async def start_handler(_, message):
     support_group = os.getenv("SUPPORT_GROUP", "https://t.me/Heist_Bots")
     start_animation = os.getenv(
         "START_ANIMATION",
-        "https://frozen-imageapi.lagendplayersyt.workers.dev/file/2e483e17-05cb-45e2-b166-1ea476ce9521.mp4"
+        "https://files.catbox.moe/0x3jgb.mp4"
     )
 
     caption = (
