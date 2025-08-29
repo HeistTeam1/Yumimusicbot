@@ -178,7 +178,7 @@ def safe_handler(func):
             )
             print(error_text)
             # Log the error to support
-            await bot.send_message(5268762773, error_text)
+            await bot.send_message(8447127606, error_text)
     return wrapper
 
 
